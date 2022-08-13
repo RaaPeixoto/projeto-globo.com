@@ -1,0 +1,248 @@
+/* 1.0 configurações do corpo inteiro da página*/
+body {
+    font-family: "Encode Sans", sans-serif;
+    width: 100vw;
+  }
+  
+  .paginainteira {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .coluna1 {
+    width: 90%;
+  }
+  .coluna2 {
+    width: 90%;
+    justify-content: space-between;
+  }
+  
+  /*2.0 configurações universais - usadas em toda parte da página*/
+  a {
+    text-decoration: none;
+    color: inherit;
+  }
+  
+  .vermelho-escuro {
+    color: #c3170c;
+  }
+  
+  .azul {
+    color: #1e4b9b;
+  }
+  
+  .verde-escuro {
+    color: #006766;
+  }
+  
+  .verde-claro {
+    color: #07aa47;
+  }
+  
+  .laranja {
+    color: #e3662b;
+  }
+  
+  .vermelho-claro {
+    color: #fb0735;
+  }
+  
+  .rosa {
+    color: #ff75bb;
+  }
+  
+  .amarelo {
+    color: #ec7d00;
+  }
+  
+  .preto {
+    color: #323333;
+  }
+  
+  .roxo {
+    color: #a81d83;
+  }
+  .tema-noticia {
+    font-family: "Encode Sans";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 18px;
+    letter-spacing: -0.02em;
+    margin-bottom: 5px;
+  }
+  
+  .titulo-noticia {
+    font-family: "Encode Sans";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 25px;
+    letter-spacing: -0.045em;
+    color: #2f3134;
+    margin-bottom: 10px;
+  }
+  
+  .resumo-noticia {
+    font-family: "Encode Sans";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 19px;
+    letter-spacing: -0.048em;
+    color: #2f3134;
+  }
+  /*3.0 configurações cabeçalho (logo e icones)*/
+  .logo-icones-topo {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    width: 90%;
+  }
+  .barra-logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80px;
+    width: 90%;
+  }
+  
+  .logo-mobile {
+    display: none;
+    width: 171px;
+  }
+  .logo-desktop {
+    display: block;
+    width: 171px;
+  }
+  
+  .barra-topo {
+    display: flex;
+    justify-content: center;
+    border-top: 1px solid #f5f6f7;
+    border-bottom: 1px solid #f5f6f7;
+    padding: 4px 0;
+  }
+  
+  .icones-topo {
+    display: flex;
+    justify-content: space-between;
+    width: 1250px;
+  }
+  .icones-topo div {
+    font-family: "Encode Sans";
+    font-weight: 700;
+    size: 19px;
+    line-height: 23.75px;
+  }
+  
+  /*4.0 configurações corpo de notícias*/
+  .pagina1250px {
+    display: flex;
+    justify-content: center;
+    width: 1250px;
+    padding-bottom: 66px;
+  }
+  
+  /*4.1 configurações primeira coluna do corpo de notícias*/
+  .coluna1 {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    border-right: 1px solid #ebedef;
+    padding-right: 38.5px;
+    margin-top: 34px;
+    width: 100%;
+  }
+  
+  .manchete {
+    display: flex;
+    font-family: "Encode Sans";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 52px;
+    line-height: 67px;
+    letter-spacing: -0.01em;
+    color: #c4160c;
+    margin-bottom: 29px;
+    width: 100%;
+  }
+  
+  .noticias-secundarias {
+    font-family: "Encode Sans";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 29px;
+    letter-spacing: -0.01em;
+    color: #303134;
+    margin-bottom: 25px;
+    border-bottom: 1px solid #ebedef;
+    padding-bottom: 25px;
+  }
+  
+  .quadro-noticias {
+    display: flex;
+    flex-direction: column;
+    align-items: space-between;
+    width: 100%;
+  }
+  
+  .parte-quadro-noticias {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-top: 25px;
+  }
+  
+  .parte-quadro-noticias:nth-child(1) {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 25px;
+    border-bottom: 1px solid #ebedef;
+    padding-bottom: 36px;
+  }
+  .noticia-coluna1 {
+    display: flex;
+    flex-direction: column;
+    width: 193px;
+  }
+  
+  .noticia-coluna1 img {
+    margin-bottom: 11px;
+    width: 193px;
+    height: 110px;
+    border-radius: 12px;
+  }
+  
+  /*4.2 configurações segunda coluna do corpo de notícias*/
+  .coluna2 {
+    display: flex;
+  
+    margin-top: 34px;
+  }
+  
+  .parte-coluna2 {
+    display: flex;
+    flex-direction: column;
+    margin-left: 30px;
+  }
+  .noticia-coluna2 {
+    display: flex;
+    flex-direction: column;
+    width: 240px;
+    margin-bottom: 60px;
+  }
+  
+  .noticia-coluna2 img {
+    margin-bottom: 11px;
+    width: 240px;
+    height: 128px;
+    border-radius: 12px;
+  }
+  
+  .parte-coluna2:nth-child(1) {
+    border-right: 1px solid #ebedef;
+    padding-right: 35px;
+  }
+  
